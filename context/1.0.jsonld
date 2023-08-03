@@ -2,6 +2,10 @@
     "@context": {
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "wytch": "https://purl.org/wytchspace/ns/ap/1.0#",
+        "license": {
+            "@id": "wytch:license",
+            "@type": "xsd:string"
+        },
         "authorization": {
             "@id": "wytch:authorization",
             "@type": "xsd:string"
