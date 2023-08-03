@@ -18,12 +18,12 @@
             "@id": "wytch:reason",
             "@type": "@id"
         },
-        "icon_decoration": {
-            "@id": "wytch:icon_decoration",
+        "iconDecoration": {
+            "@id": "wytch:iconDecoration",
             "@type": "@id"
         },
-        "text_transformation": {
-            "@id": "wytch:text_transformation",
+        "textTransformation": {
+            "@id": "wytch:textTransformation",
             "@type": "@id"
         },
         "IRIHashedPasscodeScheme": "wytch:IRIHashedPasscodeScheme",
