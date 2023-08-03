@@ -1,0 +1,36 @@
+{
+    "@context": {
+        "wytch": "https://purl.org/wytchspace/ns/ap/1.0#",
+        "authorization": {
+            "@id": "wytch:authorization",
+            "@type": "xsd:string"
+        },
+        "authorizationScheme": {
+            "@id": "wytch:authorizationScheme",
+            "@type": "@id"
+        },
+        "reason": {
+            "@id": "wytch:reason",
+            "@type": "@id"
+        },
+        "icon_decoration": {
+            "@id": "wytch:icon_decoration",
+            "@type": "@id"
+        },
+        "text_transformation": {
+            "@id": "wytch:text_transformation",
+            "@type": "@id"
+        },
+        "IRIHashedPasscodeScheme": "wytch:IRIHashedPasscodeScheme",
+        "OneTimeAccessTokenScheme": "wytch:OneTimeAccessTokenScheme",
+        "PermanentAccessTokenScheme": "wytch:PermanentAccessTokenScheme",
+        "WorldFullReason": "wytch:WorldFullReason",
+        "NoAccessReason": "wytch:NoAccessReason",
+        "InvalidAuthorizationReason": "wytch:InvalidAuthorizationReason",
+        "TimeoutReason": "wytch:TimeoutReason",
+        "CatEarsDecoration": "wytch:CatEarsDecoration",
+        "NyaaTextTransformation": "wytch:NyaaTextTransformation",
+        "GameSession": "wytch:GameSession",
+        "GameConnection": "wytch:GameConnection"
+    }
+}
