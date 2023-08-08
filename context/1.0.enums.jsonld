@@ -1,0 +1,20 @@
+{
+    "@context": {
+        "@vocab": "_:",
+        "@version": 1.1,
+
+        "wytch": "https://purl.org/wytchspace/ns/ap/1.0#",
+
+        "IRIHashedPasscodeScheme": "wytch:IRIHashedPasscodeScheme",
+        "OneTimeAccessTokenScheme": "wytch:OneTimeAccessTokenScheme",
+        "PermanentAccessTokenScheme": "wytch:PermanentAccessTokenScheme",
+
+        "WorldFullReason": "wytch:WorldFullReason",
+        "NoAccessReason": "wytch:NoAccessReason",
+        "InvalidAuthorizationReason": "wytch:InvalidAuthorizationReason",
+        "TimeoutReason": "wytch:TimeoutReason",
+
+        "CatEarsDecoration": "wytch:CatEarsDecoration",
+        "NyaaTextTransformation": "wytch:NyaaTextTransformation",
+    }
+}

@@ -1,11 +1,21 @@
 {
     "@context": {
+        "@vocab": "_:",
+        "@version": 1.1,
+
         "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "as": "https://www.w3.org/ns/activitystreams#",
+        "sec": "https://w3id.org/security#",
         "wytch": "https://purl.org/wytchspace/ns/ap/1.0#",
-        "license": {
-            "@id": "wytch:license",
-            "@type": "xsd:string"
-        },
+        "ldp": "http://www.w3.org/ns/ldp#",
+        "vcard":"http://www.w3.org/2006/vcard/ns#",
+
+        "PersonalSpace": "wytch:PersonalSpace",
+        "RenderableAsset": "wytch:RenderableAsset",
+        "GameSession": "wytch:GameSession",
+        "GameConnection": "wytch:GameConnection",
+
         "authorization": {
             "@id": "wytch:authorization",
             "@type": "xsd:string"
@@ -18,6 +28,11 @@
             "@id": "wytch:reason",
             "@type": "@id"
         },
+
+        "license": {
+            "@id": "wytch:license",
+            "@type": "xsd:string"
+        },
         "iconDecoration": {
             "@id": "wytch:iconDecoration",
             "@type": "@id"
@@ -26,16 +41,29 @@
             "@id": "wytch:textTransformation",
             "@type": "@id"
         },
-        "IRIHashedPasscodeScheme": "wytch:IRIHashedPasscodeScheme",
-        "OneTimeAccessTokenScheme": "wytch:OneTimeAccessTokenScheme",
-        "PermanentAccessTokenScheme": "wytch:PermanentAccessTokenScheme",
-        "WorldFullReason": "wytch:WorldFullReason",
-        "NoAccessReason": "wytch:NoAccessReason",
-        "InvalidAuthorizationReason": "wytch:InvalidAuthorizationReason",
-        "TimeoutReason": "wytch:TimeoutReason",
-        "CatEarsDecoration": "wytch:CatEarsDecoration",
-        "NyaaTextTransformation": "wytch:NyaaTextTransformation",
-        "GameSession": "wytch:GameSession",
-        "GameConnection": "wytch:GameConnection"
+
+        "position": {
+            "@id": "wytch:position",
+            "@type": "xsd:double",
+            "@container": "@list"
+        },
+        "rotation": {
+            "@id": "wytch:rotation",
+            "@type": "xsd:double",
+            "@container": "@list"
+        },
+        "scale": {
+            "@id": "wytch:scale",
+            "@type": "xsd:double",
+            "@container": "@list"
+        },
+        "asset": {
+            "@id": "wytch:asset",   
+            "@type": "@id"
+        },
+        "gltfOverride": {
+            "@id": "wytch:gltfOverride",
+            "@type": "@json"
+        }
     }
 }
